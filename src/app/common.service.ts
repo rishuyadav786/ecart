@@ -21,8 +21,8 @@ export class CommonService {
   SERVER_URL: string = "https://file.io/";  
   apiUrl = 'http://localhost:4000/api/upload';
   webUrl1="http://localhost:4000"
-  webUrl2="https://fdplaza.herokuapp.com/"
-  webUrl=" https://rishuyadav786.github.io/ECart/"
+  webUrl="https://fdplaza.herokuapp.com/"
+  webUrl2=" https://rishuyadav786.github.io/ECart/"
 
 //   apiUrl='http://localhost/fdplaza/index.php'
   constructor(private http: HttpClient) { }
